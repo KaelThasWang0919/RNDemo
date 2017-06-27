@@ -11,6 +11,6 @@ import {
 } from 'react-native';
 
 
-import APP from './APP/App'
+import APP from './app/App'
 
 AppRegistry.registerComponent('Demo', () => APP);

@@ -127,7 +127,11 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-webview-android')
+    compile project(':react-native-fetch-blob')
+
+    compile (name: "xwalk_core_library-22.52.561.4", ext: "aar")     // <--- add this line
+    compile project(':react-native-webview-crosswalk')
+
     compile project(':react-native-webview-bridge')
     compile project(':react-native-blur')
     //compile project(':react-native-code-push')
